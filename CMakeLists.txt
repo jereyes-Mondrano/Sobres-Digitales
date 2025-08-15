@@ -6,6 +6,6 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
-set(EXTRA_COMPONENT_DIRS "$ENV{HOME}/Cryptography-IPN/setup")
+set(EXTRA_COMPONENT_DIRS "setup")
 
 project(Mensajes-Sobres-RSA)
